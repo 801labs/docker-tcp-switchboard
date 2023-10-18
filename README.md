@@ -1,10 +1,14 @@
-# Docker TCP Switchboard
+# History
 
-[![Build Status](https://api.travis-ci.org/OverTheWireOrg/docker-tcp-switchboard.svg?branch=master)](https://travis-ci.org/OverTheWireOrg/docker-tcp-switchboard)
-
-This project is part of [OverTheWire]'s infrastructure and used to provide
+This project was part of [OverTheWire]'s infrastructure and used to provide
 players of OverTheWire wargames with a fresh Docker container each time they
-log into SSH.
+log into SSH. This was created by [@StevenVanAcker](https://github.com/StevenVanAcker)
+until it was archived on October 18th, 2023.
+
+[801 Labs](https://801labs.org) is now running this fork and providing support and 
+updates.
+
+# Docker TCP Switchboard
 
 At this point in time, docker-tcp-switchboard only really supports SSH instead
 of arbitrary TCP connections, since it makes a connection to the backend and
